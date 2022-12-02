@@ -13,4 +13,20 @@ void main() {
   //num is a keyword that is used to declare a variable.
   //num is a non-dynamic type variable.
   //num is a variable that cannot be changed.
+
+  var degisken = "Hello World";
+  degisken = "kedi";
+  print(degisken);
+
+  dynamic degisken2 = "Hello World";
+  degisken2 = 10;
+  degisken2 = 10.5;
+
+  print(degisken2);
+
+  num sayi = 10;
+  sayi = 20;
+  print(sayi);
+
+  print(degisken);
 }

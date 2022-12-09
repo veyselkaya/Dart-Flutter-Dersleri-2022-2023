@@ -5,7 +5,7 @@ void main() {
 
   print(ad.toUpperCase());
   print(ad.toLowerCase());
-  var ad2 = "Merhaba nasılsınız. Neler Yapıyorsunuz";
+  var ad2 = "Merhaba. Neler Yapıyorsunuz?";
   var yeni = ad2.replaceAll('a', 'x').replaceAll("u", "m");
 
   print(yeni);

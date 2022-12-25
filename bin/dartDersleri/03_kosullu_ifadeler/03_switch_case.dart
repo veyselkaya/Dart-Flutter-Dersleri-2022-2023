@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  var bugun = "pazartesi";
+  var bugun = "pazar";
 
   switch (bugun) {
     case "pazar":
